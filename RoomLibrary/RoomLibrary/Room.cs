@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RoomLibrary
 {
-    public class Room
+    public class Room : IComparable<Room>
     {
         public readonly int Number;
         public int Beds { get; set; }
@@ -29,5 +25,7 @@ namespace RoomLibrary
                 $"Окна: {Orientation}, Цена: {PricePerDay} руб/сутки, Свободен с: {FreeFrom:g}"
             };
         }
+
+        public int CompareTo(Room other) => Number.CompareTo(other.Number);
     }
 }

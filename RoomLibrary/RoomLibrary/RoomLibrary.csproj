@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Hotel.cs" />
+    <Compile Include="RoomPriceDescendingComparer.cs" />
     <Compile Include="LuxuryRoom.cs" />
     <Compile Include="SemiLuxuryRoom.cs" />
     <Compile Include="Room.cs" />
