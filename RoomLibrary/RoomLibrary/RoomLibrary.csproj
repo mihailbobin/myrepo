@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LuxuryRoom.cs" />
+    <Compile Include="SemiLuxuryRoom.cs" />
     <Compile Include="Room.cs" />
     <Compile Include="WindowOrientation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

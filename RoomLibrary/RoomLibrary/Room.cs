@@ -21,7 +21,7 @@ namespace RoomLibrary
             Orientation = orientation;
         }
 
-        public string[] GetInfo()
+        public virtual string[] GetInfo()
         {
             return new string[]
             {
